@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".Register_Page">
 
-    <TextView
-        android:id="@+id/password"
+    <EditText
+        android:id="@+id/editPassword"
         android:layout_width="254dp"
         android:layout_height="45dp"
         android:layout_marginTop="152dp"
@@ -19,10 +19,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.356"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/FullName" />
+        app:layout_constraintTop_toBottomOf="@+id/editFullName" />
 
-    <TextView
-        android:id="@+id/EmailId"
+    <EditText
+        android:id="@+id/editEmail"
         android:layout_width="254dp"
         android:layout_height="45dp"
         android:layout_marginTop="84dp"
@@ -34,10 +34,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.356"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/FullName" />
+        app:layout_constraintTop_toBottomOf="@+id/editFullName" />
 
-    <TextView
-        android:id="@+id/MobilePh"
+    <EditText
+        android:id="@+id/editMobileNumber"
         android:layout_width="254dp"
         android:layout_height="45dp"
         android:layout_marginTop="16dp"
@@ -49,10 +49,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.356"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/FullName" />
+        app:layout_constraintTop_toBottomOf="@+id/editFullName" />
 
-    <TextView
-        android:id="@+id/FullName"
+    <EditText
+        android:id="@+id/editFullName"
         android:layout_width="254dp"
         android:layout_height="45dp"
         android:layout_marginStart="56dp"
@@ -76,7 +76,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.746"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintTop_toBottomOf="@+id/editPassword"
         app:layout_constraintVertical_bias="0.071" />
 
     <ImageView

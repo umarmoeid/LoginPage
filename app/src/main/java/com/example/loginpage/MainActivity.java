@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,10 +17,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button Done=findViewById(R.id.Button);
-        EditText GoToRegister=findViewById(R.id.GoToRegister);
+        //TextView textView=  findViewById(R.id.editRegister);
 
         Intent i= new Intent(this,Register_Page.class);
-        GoToRegister.setOnClickListener(new View.OnClickListener() {
+        Done.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(i);
