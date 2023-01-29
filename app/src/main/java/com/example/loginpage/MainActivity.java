@@ -17,7 +17,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button Done=findViewById(R.id.Button);
-        //TextView textView=  findViewById(R.id.editRegister);
+        //TextView textView=  findViewById(R.id.editR
+
 
         Intent i= new Intent(this,Register_Page.class);
         Done.setOnClickListener(new View.OnClickListener() {

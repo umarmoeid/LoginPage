@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -40,6 +39,9 @@ public class Register_Page extends AppCompatActivity {
 
 
         Button btnRegister=findViewById(R.id.btnSignup);
+
+
+
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -82,6 +84,5 @@ myRef.addValueEventListener(new ValueEventListener() {
 Toast.makeText(getApplicationContext(),"Data not stored",Toast.LENGTH_SHORT).show();
     }
 });
-
     }
 }
